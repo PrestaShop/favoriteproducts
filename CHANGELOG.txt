@@ -1,0 +1,4 @@
+2014-04-22 18:58:27 +0200	// Changelog updated
+2014-04-17 12:02:11 +0200	// version compliancy
+2014-03-24 18:26:17 +0100	/ MO favoriteproducts : ps_versions_compliancy added
+2014-03-21 10:54:00 +0100	Initial commit
