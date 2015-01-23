@@ -37,6 +37,8 @@ class FavoriteProducts extends Module
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 
+		$this->controllers = array('account');
+
 		parent::__construct();
 
 		$this->displayName = $this->l('Favorite Products');
