@@ -33,9 +33,11 @@ class FavoriteProducts extends Module
 	{
 		$this->name = 'favoriteproducts';
 		$this->tab = 'front_office_features';
-		$this->version = '1.2.1';
+		$this->version = '1.2.3';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
+
+		$this->controllers = array('account');
 
 		parent::__construct();
 
