@@ -76,8 +76,9 @@ $(document).ready(function(){
 		});
 	});
 
-	$('[rel^=ajax_id_favoriteproduct_]').click(function()
+	$('[rel^=ajax_id_favoriteproduct_]').click(function(e)
 	{
+		e.preventDefault();
 		var idFavoriteProduct =  $(this).attr('rel').replace('ajax_id_favoriteproduct_', '');
 		var parent = $(this).parent().parent();
 
